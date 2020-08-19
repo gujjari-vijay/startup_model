@@ -1,0 +1,160 @@
+body{
+
+  }
+  #title{
+  background-color:#ff4c68;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+
+  }
+  h2{
+
+    font-size:3rem;
+    line-height:1.5;
+  }
+  h3{
+
+    font-size:1.5rem;
+  }
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* heading styling */
+.big-heading{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color:white;
+}
+/* navbar styling  */
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat-light', sans-serif;
+  font-size:1.2rem;
+  font-weight: lighter;
+}
+
+/* button styling  */
+.download-button{
+  margin :5% 3% 5% 0;
+}
+
+/* title-dog-image  */
+.title-dog-image{
+  width:60%;
+  margin-left: 2rem;
+  transform:rotate(30deg);
+  position: absolute;
+  /* right:30%; */
+
+}
+/* feature styling */
+#features{
+  padding:7% 15% ;
+  background-color:white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+.tokens{
+  font-size:4rem;
+  color:#ef8172;
+  margin:1rem;
+}
+.tokens:hover{
+  color:#ff4c68;
+}
+
+.p1{
+  color:#8f8f8f;
+}
+
+/* styling for testimonials section */
+#testimonials{
+
+  text-align:center;
+  background-color:#ef8172;
+  color:white;
+}
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* styling for pricing section */
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+
+}
+
+/* Styling for cta section */
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  padding:7% 15% ;
+}
+.cta-h3{
+  font-family:'Montserrat', sans-serif;
+  font-size:3.5rem;
+  color:white;
+}
+.cta-button{
+  margin:5% 3%;
+}
+/* styling for footer section */
+#footer{
+  background-color:white;
+  text-align:center;
+  padding:5% 5%;
+}
+.footer-icon{
+  margin:1% 0.5%;
+}
+.p2{
+  color:grey;
+}
+
+-------------------------------------------------------------------------------
+
+@media (max-width:1028px){
+  #title{
+    text-align:center;
+  }
+  .title-dog-image{
+    width: 40%;
+    position:static;
+    transform:rotate(0);
+
+  }
+}
